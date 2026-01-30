@@ -1,0 +1,11 @@
+{
+    "type":"module",
+    "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+},
+    "devDependencies": {
+        "jest":"^30.0.0"
+    }
+}
